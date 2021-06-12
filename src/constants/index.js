@@ -2,7 +2,7 @@
 export const CONFIRM_DELETE_TASK = "Are you sure you want to delete this task?";
 export const TASK_PLACEHOLDER = "Enter task name here!";
 export const CREATED_SUCCESS = "You just created a new task!";
-export const CREATED_FAILED = "Please fill your task's content!";
+export const CREATED_FAILED = "Please fill your task's name!";
 export const DELETED_SUCCESS = "This task has been deleted!";
 export const TOGGLE_ALL_SUCCESS = "All tasks status have been inverted!";
 export const EMPTY_TASK_LIST = "You have no tasks!";
