@@ -1,0 +1,19 @@
+.empty {
+  height: 210px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty p {
+  margin-top: 10px;
+}
+
+.display-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.display-button__switch-theme {
+  margin-left: 20px;
+}
