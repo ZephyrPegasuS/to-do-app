@@ -10,10 +10,6 @@ class Services extends React.Component {
       status: TODO_STATUS.ACTIVE,
     });
   }
-
-  async getTodos() {
-    return [];
-  }
 }
 
 export default new Services();

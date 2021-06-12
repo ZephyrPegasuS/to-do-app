@@ -11,7 +11,7 @@
 .to-do-page__title {
   margin-top: 0;
   text-align: center;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 
 .to-do-page__creation {

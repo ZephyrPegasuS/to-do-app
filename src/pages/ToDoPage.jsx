@@ -145,7 +145,10 @@ const ToDoPage = () => {
   };
 
   const EnhancedTaskList = withTaskListEmpty(TaskList, showing);
-  const ActionButtonWithThemeSwitcher = withThemeSwitcher(ActionButton);
+  const ActionButtonWithThemeSwitcher = withThemeSwitcher(
+    ActionButton,
+    currentTheme
+  );
 
   return (
     <div className='to-do-page'>
