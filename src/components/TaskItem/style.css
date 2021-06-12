@@ -32,4 +32,5 @@
 .task-item__delete {
   background-color: red;
   border-radius: 50%;
+  font-size: 20px;
 }

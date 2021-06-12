@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 
 function SwitchTheme({ className, currentTheme }) {
   const [theme, setTheme] = useState(currentTheme);
+
+  useEffect(() => {
+    setTheme(currentTheme);
+  }, [currentTheme]);
 
   const switchTheme = (value) => {
     if (value) {

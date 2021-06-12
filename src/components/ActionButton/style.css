@@ -5,25 +5,30 @@
 }
 
 .action-button__active {
-  background-color: blue;
+  background-color: #302ae6 !important;
   color: white;
 }
 
 .action-button button {
   outline: none;
   border: none;
-  box-shadow: 2px 2px black;
+  box-shadow: 2px 2px var(--font-color);
   border-radius: 4px;
   min-height: 32px;
   min-width: 80px;
   padding: 4px 8px;
+  background-color: #0099cc;
+  color: #ffffff;
 }
 
 .action-button button:hover {
+  background-color: #00aacc;
+  color: #fff;
   cursor: pointer;
 }
 
 .action-button button[disabled] {
-  background-color: rgba(0, 0, 0, 0.3);
   cursor: no-drop;
+  background-color: #ccc;
+  color: #666;
 }
