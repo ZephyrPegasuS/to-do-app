@@ -24,9 +24,12 @@ export const withTaskListEmpty = (Component, statusFilter) => (props) =>
     <Component {...props} />
   );
 
-export const withThemeSwitcher = (Component) => (props) => (
+export const withThemeSwitcher = (Component, theme) => (props) => (
   <div className='display-button'>
     <Component {...props} />
-    <SwitchTheme className='display-button__switch-theme' />
+    <SwitchTheme
+      className='display-button__switch-theme'
+      currentTheme={theme}
+    />
   </div>
 );
